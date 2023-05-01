@@ -10,7 +10,7 @@ export default ({ setCreateShipmentModel, createShipmentModel, createShipment })
     const createItem = async () => {
         try {
             await createShipment(shipment);
-        } catch (error) {
+        } catch (eror) {
             console.log("Wrong creating item");
         }
     };
