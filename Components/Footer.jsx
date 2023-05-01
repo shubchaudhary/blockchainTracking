@@ -27,10 +27,7 @@ const Footer = () => {
                 <div className="justify-between sm:flex">
                     <div className="space-y-6">
                         <img src="/logo.png" alt="log" className="w-32" />
-                        <p className="max-w-md">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatibus modi dicta,
-                            quod voluptate voluptatem, nobis
-                        </p>
+                        <p className="max-w-md">Lorem ipsum dolor sit</p>
                         <ul className="flex flex-wrap items-center gap-4 text-sm sm:text-base">
                             {footerNavs.map((item, idx) => (
                                 <li className="text-gray-800 hover:text-gray-500 duration-150">
